@@ -25,9 +25,6 @@ namespace AoC2023
       bool _inputDataReady;
       std::vector<std::string> _inputData;
       
-      std::uint64_t _elfWithMaxCalories; 
-      std::uint32_t _sumOfTop3WithMaxCalories; 
-      
       std::map<std::string, int> numbersMap {
       {"one", 1},
       {"two", 2 },

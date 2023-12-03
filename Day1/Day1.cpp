@@ -5,9 +5,7 @@ namespace AoC2023
 {
   Day1::Day1():
     _inputFile{ "input.txt", std::ios_base::in },
-    _inputDataReady{ false }, 
-    _elfWithMaxCalories{ 0 },
-    _sumOfTop3WithMaxCalories { 0 }
+    _inputDataReady{ false }
   {  
     if (PrepareInputData())
     {
